@@ -71,7 +71,7 @@ header{
 /*Hero Section*/
 .hero_section{
   width: 100%;
-  max-width: 2450px;
+  max-width: 2150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,7 +117,7 @@ header{
 .vacuum_section{
   background-color: rgb(48, 48, 48);
   width: 100%;
-  max-width: 2500px;
+  max-width: 2150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,7 +164,7 @@ header{
 /*Detail Section*/
 .detail_section{
   width: 100%;
-  max-width: 2500px;
+  max-width: 2150px;
   display: flex;
   justify-content: center;
   background-color: rgb(235, 235, 235);
@@ -208,7 +208,7 @@ header{
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 2500px;
+  max-width: 2150px;
   background-color: rgb(48, 48, 48);
 }
 .product_section{
@@ -216,7 +216,7 @@ header{
   width: 100%;
   grid-template-columns: 1fr 1fr;
   max-width: 2000px;
-  column-gap: 10px;
+  column-gap: 0.5%;
   row-gap: 10px;
   margin: 0px 10px;
   padding: 10px 0;
@@ -225,18 +225,21 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 500px;
+  height: 400px;
 }
 .product_section h3, .product_section p{
-  font-size: 40px;
-  margin: 10px;
+  font-size: 30px;
+  margin: 7px;
   color: black;
+  text-align: center;
+  margin-left: -350px !important;
 }
 .product_section p{
-  font-size: 20px;
+  font-size: 17px;
 }
 .product_section ul{
-  font-size: 20px;
+  font-size: 17px;
+  margin-left: -350px !important;
 }
 .product_section a{
   color: #2997ff;
@@ -251,15 +254,21 @@ header{
   margin-right: 10px;
 }
 #product_1{
-  background-image: url("image/product1.png");
+  background-image: url("image/product 1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product_2{
-  background-image: url("image/product2.png");
+  background-image: url("image/product 2.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+  background-size: cover;
+}
+#product_3{
+  background-image: url("image/product 3.png");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 /*Product Section*/
