@@ -48,7 +48,12 @@ header{
   text-decoration: none;
   color: aliceblue;
   font-family: Arial;
+  transition:0.1s;
 }
+.head_of_header :hover {
+text-decoration: underline;
+}
+
 .sticky {
   position: fixed;
   display: flex;
@@ -238,14 +243,15 @@ header{
   margin: 7px;
   color: black;
   text-align: center;
-  margin-left: -370px !important;
+  margin-left: -400px !important;
 }
 .product_section p{
   font-size: 20px;
+  letter-spacing: 0.5px;
 }
 .product_section ul{
   font-size: 20px;
-  margin-left: -370px !important;
+  margin-left: -410px !important;
 }
 .product_section h3{
   margin-top: 30px;
@@ -376,7 +382,15 @@ footer p{
   margin-left: 80px;
 }
 .right{
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
+}
+.right img{
+  height: 70px;
+  margin-left: -30px;
+  margin-bottom: 125px;
+  cursor: pointer;
 }
 #Company_name{
   margin-top: 15px;
